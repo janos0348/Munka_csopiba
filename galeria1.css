@@ -1,0 +1,19 @@
+article .flex-container  img{
+    
+    flex-grow: 4;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightblue;
+    justify-content: center;
+    gap: 5px;
+    align-items: stretch;
+  }
+
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 10px;
+  }
