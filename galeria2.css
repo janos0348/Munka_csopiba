@@ -1,0 +1,15 @@
+article img {
+    flex-grow:4;
+    padding: 10px;
+    margin-top: 40px;
+    background-color: burlywood;
+    border: 1px solid rgb(247, 247, 174);
+}
+article{
+    align-items: stretch    ;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: lightblue;
+}
